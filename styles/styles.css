@@ -139,3 +139,69 @@
   cursor: pointer;
   padding: 16px 16px;
 }
+/* note section  */
+.note-section{
+max-width: 1600px;
+margin: 0 auto;
+}
+
+.note-container h2{
+font-size: 48px;
+font-weight: bold;
+text-align: center;
+margin-top: 30px;
+color: #001931;
+}
+
+.note-container p{
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+margin-top: 16px;
+color: #627382;
+margin-bottom: 44px;
+}
+
+.card-container{
+display: flex;
+gap: 24px;
+justify-content: center;
+margin-top: 50px;
+padding: 0 120px;
+}
+
+.note-card{
+max-width: 322px;
+background-color: #FFFFFF;
+box-shadow: 0 0 8px 0 #F3F4F6;
+border-radius: 16px;
+text-align: center;
+border: 1px solid #F3F4F6;
+padding: 0 24px 20px;
+}
+
+.note-icon{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 40px auto 16px;
+background-color: #F95555;
+}
+
+.note-card h3{
+color: #001931;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.note-card p{
+color: #627382;
+font-size: 16px;
+line-height: 20px;
+padding: 0 24px;
+}
+
